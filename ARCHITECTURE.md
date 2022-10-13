@@ -80,6 +80,6 @@ https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123d
 https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123de22b4dc99a841f537b4b1cfe03163f4/test/unit/model/MessageMotherObject.js#L3-L15
 
 
-> Nota do Wells: Se você leu até aqui, manda um salve lá no [#-desafios-jsexpert][canal-discord] dizendo o que achou! 
+> Nota do Wells: Se você leu até aqui, manda um salve lá no nosso canal [#-desafios-jsexpert][canal-discord] no discord dizendo o que achou! 
 
 > Nota extra do Wells: Não esquece que se tiver interesse em escrever Markdowns como esse aqui, um bom lugar pra consultar é a [documentação do github][gitmd] sobre o assunto :)
