@@ -4,6 +4,12 @@
 [repository]:https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123de22b4dc99a841f537b4b1cfe03163f4/src/repository
 [service]: https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123de22b4dc99a841f537b4b1cfe03163f4/src/service
 
+[platform-base]: https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123de22b4dc99a841f537b4b1cfe03163f4/src/platforms/_base
+[credit-handler]: https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123de22b4dc99a841f537b4b1cfe03163f4/src/platforms/_base/CreditHandler.js
+[message-handler]: https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123de22b4dc99a841f537b4b1cfe03163f4/src/platforms/_base/MessageHandler.js
+
+[canal-discord]: https://discord.com/channels/710521139897827328/902916547746603019
+
 # Documentação da arquitetura do projeto 
 
 Design Patterns usados na implementação desse desafio:
@@ -40,10 +46,6 @@ usada para concentrar as principais regras de negócio e fazer uso das outras ca
 ## Abstract Factory
    Usado para permitir a criação de um comportamento em comum que será implementado de diversas maneiras diferentes de acordo com a plataforma em questão.
 
-[platform-base]: https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123de22b4dc99a841f537b4b1cfe03163f4/src/platforms/_base
-[credit-handler]: https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123de22b4dc99a841f537b4b1cfe03163f4/src/platforms/_base/CreditHandler.js
-[message-handler]: https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123de22b4dc99a841f537b4b1cfe03163f4/src/platforms/_base/MessageHandler.js
-
    Optamos na [platform/_base][platform-base] em defenir os seguintes "implementadores/gerenciadores" (ou handlers):
    - [CreditHandler][credit-handler]: reponsável por gerenciar as interações com o meio de autenticação e consumo de créditos disponíveis para envio de cada usuário. 
    https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123de22b4dc99a841f537b4b1cfe03163f4/src/platforms/_base/CreditHandler.js#L1-L18
@@ -78,3 +80,6 @@ https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123d
 https://github.com/WellsSA/jsexpert-challenge06-patterns-solution/blob/f9437123de22b4dc99a841f537b4b1cfe03163f4/test/unit/model/MessageMotherObject.js#L3-L15
 
 
+> Nota do Wells: Se você leu até aqui, manda um salve lá no [#-desafios-jsexpert][canal-discord] dizendo o que achou! 
+
+> Nota extra do Wells: Não esquece que se tiver interesse em escrever Markdowns como esse aqui, um bom lugar pra consultar é a [documentação do github][gitmd] sobre o assunto :)
