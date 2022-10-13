@@ -17,6 +17,7 @@ class MessageMotherObject {
   static withValidTo() {
     return MessageDataBuilder.aMessage().withValidTo().build();
   }
+
   static withValidSubject() {
     return MessageDataBuilder.aMessage().withValidSubject().build();
   }

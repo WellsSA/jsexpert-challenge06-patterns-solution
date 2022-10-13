@@ -1,5 +1,9 @@
-// nota: nós também poderíamos implementar uma "Mensagem base" se fosse o caso, e adicionar
-// campos customizados em cada contexto. ex: email precisa de subject, sms não precisa
+/* 
+> Nota do Wells: nós também poderíamos implementar uma "Mensagem base" se fosse o caso, e adicionar
+> campos customizados em cada contexto. 
+> ex: email precisa de subject, sms não precisa
+> ex: sms e whatsapp precisam de telefone, email não precisa
+*/
 
 class Message {
   constructor({ from, to, subject, text }) {
