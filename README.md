@@ -1,6 +1,12 @@
 [challengeguide]: https://github.com/training-erickwendel/jsexpert-challenge-guide/
+[architecture]: ARCHITECTURE.md
+
 
 # Solução oficial
+## Importante: Confira o arquivo [ARCHITECTURE.md][architecture] com a descrição detalhada das arquiteturas utilizadas na resolução do desafio :wink:
+
+
+---
 
 > ATENÇÃO: ESTE DESAFIO É EXTREMAMENTE EXPERT, RECOMENDAMOS FAZER O RESTANTE DO CURSO ATÉ AQUI ANTES DE MERGULHAR NAS ARQUITETURAS EXIGIDAS DESSE DESAFIO EM DIANTE
 
