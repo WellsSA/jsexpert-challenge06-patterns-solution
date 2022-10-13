@@ -1,6 +1,6 @@
-Challenger: Claudio Onohara
-
 [challengeguide]: https://github.com/training-erickwendel/jsexpert-challenge-guide/
+
+# Solução oficial
 
 > ATENÇÃO: ESTE DESAFIO É EXTREMAMENTE EXPERT, RECOMENDAMOS FAZER O RESTANTE DO CURSO ATÉ AQUI ANTES DE MERGULHAR NAS ARQUITETURAS EXIGIDAS DESSE DESAFIO EM DIANTE
 
