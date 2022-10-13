@@ -1,6 +1,7 @@
 {
   "author": "Wellington Almeida (WellsSA)",
-  "name": "jsexpert-challenge06-patterns",
+  "name": "jsexpert-challenge06-patterns-solution",
+  "description": "The official solution for the 6th EW.IT code challenge.",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
