@@ -1,0 +1,15 @@
+{
+  "author": "Wellington Almeida (WellsSA)",
+  "name": "jsexpert-challenge06-patterns",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --watchAll --config ./jest.config.js",
+    "test:dev": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --watchAll --config ./jest.config.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.2"
+  }
+}
